@@ -1,0 +1,75 @@
+/* --- Estilo Global de la Aplicación --- */
+.root {
+    -fx-font-family: "JetBrains Mono";
+}
+
+/* --- Estilo para TODOS los botones de la aplicación --- */
+.button {
+    -fx-background-color: #f0f0f0;
+    -fx-font-size: 13px;
+    -fx-border-color: #c0c0c0;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.button:hover {
+    -fx-background-color: #e0e0e0;
+}
+
+/* --- Estilos para las etiquetas y títulos --- */
+#mesLabel {
+    /* Anulamos JetBrains Mono aquí para un título más impactante */
+    -fx-font-family: "JetBrains Mono";
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+}
+
+.label-titulo {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+/* --- Estilos específicos para botones importantes --- */
+#finalizarVentaButton {
+    -fx-background-color: #28a745; /* Verde */
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+}
+#finalizarVentaButton:hover {
+    -fx-background-color: #218838;
+}
+
+#exportarPdfButton {
+    -fx-background-color: #dc3545; /* Rojo */
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+#exportarPdfButton:hover {
+    -fx-background-color: #c82333;
+}
+
+#mesAnteriorButton, #mesSiguienteButton {
+    -fx-background-color: #007bff; /* Azul */
+    -fx-text-fill: white;
+    -fx-font-weight:bold;
+}
+#mesAnteriorButton:hover, #mesSiguienteButton:hover {
+    -fx-background-color: #ffffff;
+}
+
+/* --- Estilo para el botón de eliminar en la tabla del carrito --- */
+.delete-button {
+    -fx-background-color: #dc3545; /* Rojo */
+    -fx-text-fill: white;
+    -fx-font-size: 10px;
+    /* Quitamos el borde para que se vea más limpio en la tabla */
+    -fx-border-color: transparent;
+}
+.delete-button:hover {
+    -fx-background-color: #c82333; /* Rojo más oscuro */
+}
+
+#colCarritoAccion{
+    -fx-alignment: CENTER;
+}
