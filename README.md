@@ -1,6 +1,6 @@
-# Problema: Crear un JAR ejecutable con un solo clic para una aplicación JavaFX
+# Problema: Crear un JAR ejecutable
 
-Al empaquetar una aplicación JavaFX con Maven, el archivo JAR generado (`fotocop-1.0-SNAPSHOT.jar`) no se ejecuta al hacer doble clic.
+Al empaquetar una aplicación JavaFX con Maven, el archivo JAR generado (`fotocop-1.0-SNAPSHOT.jar`) no ogra ejecutar.
 
 ### Causas Principales
 
